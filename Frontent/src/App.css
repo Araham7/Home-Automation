@@ -1,52 +1,125 @@
-#root {
-  max-width: 1280px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#upper-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: #dac2c2;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 100px;
+}
+
+#menubar a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 120px 20px 20px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#main-container-left {
+  width: 60%;
+  height: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#main-container-left-text {
+  padding: 20px 30px;
+}
+#main-container-left-text h1 {
+  font-size: 100px;
+  font-weight: 900;
+}
+#main-container-left-text h1 span {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffffff;
+  font-size: 100px;
+  font-weight: 900;
+
+}
+#main-container-left-text h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#main-container-left-button {
+  padding: 20px 30px;
 }
 
-.card {
-  padding: 2em;
+#main-container-left-button button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #dac2c2;
+  opacity: 0.8;
+  color: #000;
 }
 
-.read-the-docs {
-  color: #888;
+#main-container-left-button button:hover {
+  opacity: 1;
+}
+
+#main-container-left-button button:active {
+  transform: scale(0.95);
+}
+#main-container-left-button button:focus {
+  outline: none;
+}
+#main-container-left h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 30px;
+}
+
+#main-container-right {
+  width: 40%;
+  height: 100%;
+  padding: 10px 20px;
+}
+
+#main-container-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+#main-container-right img:hover {
+  transform: scale(1.05);
 }
 
 
-button{
-  background-color: rgb(76, 76, 206);
-  color: whitesmoke;
-}
 
-button:hover{
-  background-color: rgb(67, 67, 97);
-}
+
+
