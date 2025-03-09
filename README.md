@@ -20,13 +20,13 @@ This project implements a smart switch system using **ReactJS (Client)**, **ESP3
 
 ---
 
-## 🔧 Setup and Installation
+## Setup and Installation
 
-### 1️⃣ Server Setup (Node.js + Socket.IO)
+### 1️ Server Setup (Node.js + Socket.IO)
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/smart-switch.git
-   cd smart-switch/server
+   git clone https://github.com/Araham7/Home-Automation-Anywhere-Smart-Switch-.git
+   cd Home-Automation-Anywhere-Smart-Switch-
    ```
 2. Install dependencies:
    ```sh
@@ -37,7 +37,7 @@ This project implements a smart switch system using **ReactJS (Client)**, **ESP3
    node index.js
    ```
 
-### 2️⃣ ReactJS Client Setup
+### 2️ ReactJS Client Setup
 1. Navigate to the React client folder:
    ```sh
    cd ../client
@@ -85,20 +85,35 @@ This project implements a smart switch system using **ReactJS (Client)**, **ESP3
 
 ---
 
-## 📝 Future Improvements
+## 🎥 Video Demonstration
+Watch the project in action:(Tap on the Image to watch video)
+[![Project Video](./IMAGES/Thumbnail.jpeg)](https://youtu.be/SberzcqpUqo?si=JaSv6EqqUSMRk4Cj)
+
+---
+
+## Images
+### ReactJS Client
+![ReactJS Client UI](./IMAGES/reactJsClient.jpeg)
+
+### ESP32 Setup
+![ESP32 Circuit](./IMAGES/esp32.jpeg)
+
+---
+
+## Future Improvements
 - Add authentication for secure access.
 - Create a mobile-friendly UI.
 - Implement MQTT for an alternative communication protocol.
 
 ---
 
-## 📜 License
+## License
 This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 💬 Feedback & Contributions
+## Feedback & Contributions
 Feel free to contribute by submitting pull requests or opening issues!
 
-📧 Contact: arahamabeddin7@gmail.com 
+Contact: arahamabeddin7@gmail.com
 
